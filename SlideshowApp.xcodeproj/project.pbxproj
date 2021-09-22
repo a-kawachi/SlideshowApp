@@ -13,6 +13,10 @@
 		7E940F7B26FAF20700011BFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E940F7926FAF20700011BFC /* Main.storyboard */; };
 		7E940F7D26FAF20800011BFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E940F7C26FAF20800011BFC /* Assets.xcassets */; };
 		7E940F8026FAF20800011BFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E940F7E26FAF20800011BFC /* LaunchScreen.storyboard */; };
+		7E940F8E26FAF4BC00011BFC /* panda.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7E940F8D26FAF4BC00011BFC /* panda.jpeg */; };
+		7E940F9126FAFCCE00011BFC /* mamesiba.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7E940F9026FAFCCE00011BFC /* mamesiba.jpeg */; };
+		7E940F9426FAFD2600011BFC /* neko.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7E940F9326FAFD2600011BFC /* neko.jpeg */; };
+		7E940F9726FB016200011BFC /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E940F9626FB016200011BFC /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		7E940F7C26FAF20800011BFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E940F7F26FAF20800011BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E940F8126FAF20800011BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E940F8D26FAF4BC00011BFC /* panda.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = panda.jpeg; path = ../../../Desktop/panda.jpeg; sourceTree = "<group>"; };
+		7E940F9026FAFCCE00011BFC /* mamesiba.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mamesiba.jpeg; sourceTree = "<group>"; };
+		7E940F9326FAFD2600011BFC /* neko.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = neko.jpeg; sourceTree = "<group>"; };
+		7E940F9626FB016200011BFC /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				7E940F7326FAF20700011BFC /* AppDelegate.swift */,
 				7E940F7526FAF20700011BFC /* SceneDelegate.swift */,
 				7E940F7726FAF20700011BFC /* ViewController.swift */,
+				7E940F9626FB016200011BFC /* ImageViewController.swift */,
+				7E940F8D26FAF4BC00011BFC /* panda.jpeg */,
+				7E940F9026FAFCCE00011BFC /* mamesiba.jpeg */,
+				7E940F9326FAFD2600011BFC /* neko.jpeg */,
 				7E940F7926FAF20700011BFC /* Main.storyboard */,
 				7E940F7C26FAF20800011BFC /* Assets.xcassets */,
 				7E940F7E26FAF20800011BFC /* LaunchScreen.storyboard */,
@@ -124,7 +136,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E940F9426FAFD2600011BFC /* neko.jpeg in Resources */,
+				7E940F9126FAFCCE00011BFC /* mamesiba.jpeg in Resources */,
 				7E940F8026FAF20800011BFC /* LaunchScreen.storyboard in Resources */,
+				7E940F8E26FAF4BC00011BFC /* panda.jpeg in Resources */,
 				7E940F7D26FAF20800011BFC /* Assets.xcassets in Resources */,
 				7E940F7B26FAF20700011BFC /* Main.storyboard in Resources */,
 			);
@@ -139,6 +154,7 @@
 			files = (
 				7E940F7826FAF20700011BFC /* ViewController.swift in Sources */,
 				7E940F7426FAF20700011BFC /* AppDelegate.swift in Sources */,
+				7E940F9726FB016200011BFC /* ImageViewController.swift in Sources */,
 				7E940F7626FAF20700011BFC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
