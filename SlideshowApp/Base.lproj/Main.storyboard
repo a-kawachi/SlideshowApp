@@ -38,7 +38,6 @@
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="xtp-iW-7kK" appends="YES" id="Fjq-EF-Gpf"/>
-                                    <outletCollection property="gestureRecognizers" destination="xtp-iW-7kK" appends="YES" id="57O-cc-fmF"/>
                                 </connections>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3j-P5-3UH">
@@ -58,13 +57,11 @@
                         <outlet property="forwardButton" destination="3Oo-Lp-t8E" id="4Uo-UV-ywq"/>
                         <outlet property="imageView" destination="p4k-zS-cLu" id="CHC-eV-JoX"/>
                         <outlet property="playButton" destination="7zR-PU-sYe" id="AMf-ia-Hgt"/>
-                        <outlet property="timer" destination="p4k-zS-cLu" id="rv5-Rq-IaY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="xtp-iW-7kK">
                     <connections>
-                        <action selector="tapAction:" destination="BYZ-38-t0r" id="pby-um-ulw"/>
                         <segue destination="v3X-qC-Sxw" kind="show" id="HXe-Zs-5NC"/>
                     </connections>
                 </tapGestureRecognizer>
@@ -88,7 +85,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="戻る"/>
                                 <connections>
-                                    <action selector="back:" destination="v3X-qC-Sxw" eventType="touchUpInside" id="0pX-6t-bbo"/>
                                     <segue destination="HpP-Ie-2kM" kind="unwind" unwindAction="unwind:" id="Zc7-ec-XlH"/>
                                 </connections>
                             </button>
